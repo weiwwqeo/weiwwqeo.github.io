@@ -1,7 +1,8 @@
 ---
 title: "\U0001F427&黄\U0001F42E石"
-categories: '-野草'
+categories: '野草'
 abbrlink: '70204332'
+date: 2023-11-30
 ---
 
 感想是：能活着下山真的太好了！（不是）

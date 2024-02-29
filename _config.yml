@@ -110,7 +110,8 @@ theme: butterfly
 deploy:
   type: git
   #repository: https://github.com/weiwwqeo/weiwwqeo.github.io
-  repository: git@github.com:weiwwqeo/weiwwqeo.github.io.git
+  #repository: git@github.com:weiwwqeo/weiwwqeo.github.io.git
+  repository: git@weiwwqeo:weiwwqeo/weiwwqeo.github.io.git
   #repository: https://gitee.com/weiwwqeo/weiwwwqeo.gitee.io
   branch: master
   #branch: main
