@@ -1,6 +1,8 @@
 ---
-title: "Correlation Function and Power Spectrum"
-categories: 'Cosmology'
+title: Correlation Function and Power Spectrum
+categories: Cosmology
+abbrlink: b60b41d1
+mathjax: true
 ---
 
 这是一篇对2pcf及功率谱的简要介绍。由于学术书面语言需要，下文使用英语。/
@@ -11,7 +13,7 @@ Here is a short introduction of 2pcf and power spectrum. The following would be 
 
 ## 2PCF
 
-* $ dN_{ab}=\langle n_an_b\rangle $ : the number of pairs in volumes $dV_a$ and $dV_b$ seperated by $r_{ab}$ .
+* $dN_{ab}=\langle n_an_b\rangle$ : the number of pairs in volumes $dV_a$ and $dV_b$ seperated by $r_{ab}$ .
 
   Def 2pcf (2 point correlation function $\xi(r_{ab})$ , $\rho_0=N/V$ is the average numerical density.
 
@@ -31,15 +33,15 @@ $$
 * In practice, we often choose $dV_a$ s.t. $\rho_0 d V_a=1$. Then we have the follows:
 
 $$
-dN_b=\rho_0dV_b[1+\xi(r_b)]\\
-\xi(r)=\dfrac{dN(r)}{\rho_0dV}-1=\dfrac{\langle\rho_c\rangle}{\rho_0}-1
+dN_b=\rho_0dV_b[1+\xi(r_b)],\quad 
+\xi( r)=\dfrac{dN( r)}{\rho_0dV}-1=\dfrac{\langle\rho_c\rangle}{\rho_0}-1
 $$
 
 * i.e. evaluates the correlation function as the average number of particles at distant $r$ from any given particle, divided by the expected number of particles at the same distance in a uniform distribution, minus 1. 
 
-  In a finite volume with $N=\rho_0V$ particles, $\int \xi(r)dV=0$ apparently.
+  In a finite volume with $N=\rho_0V$ particles, $\int \xi( r)dV=0$ apparently.
 
-* If $\xi(r)$ positive, there are more particles than in a uniform distribution, i.e. the distribution is positively clustered. 
+* If $\xi( r)$ positive, there are more particles than in a uniform distribution, i.e. the distribution is positively clustered. 
 
 * Usually only consider its dependence on the modulus $r$. So the volume $V$ is chosen as a **shell** around each particle. Then $\rho_c$ is the number density inside a shell of thickness $dr$ at distance $r$ from every particle.  Just requires the estimation of the density in every shell.
 
@@ -66,7 +68,7 @@ $$
 
 ## nPCF
 
-* 1pcf --- average number density $\rho_0$ ; 2pcf -- $\xi(r)$
+* 1pcf --- average number density $\rho_0$ ; 2pcf -- $\xi( r)$
 
 * 3pcf: $\zeta_{abc}(r_a,r_b,r_c)=\langle\delta(r_a)\delta(r_b)\delta(r_c)\rangle=\dfrac{n_an_bn_c}{\rho_0^3dV_adV_bdV_c}-\xi_{ab}-\xi_{ac}-\xi_{ac}-1$
 
